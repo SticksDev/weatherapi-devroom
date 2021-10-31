@@ -2,7 +2,6 @@ const express = require('express');
 const app = express();
 const axios = require('axios');
 const fs = require('fs');
-const { prettyPrintJson } = require('pretty-print-json')
 
 
 app.get('/', function(req, res) {
